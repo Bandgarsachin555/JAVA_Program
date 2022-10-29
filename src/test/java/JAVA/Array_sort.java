@@ -18,8 +18,10 @@ String [] array1= {"sachin","bandu","kaku","kaki"};
 		{
 			System.out.print(t+"===");
 		}
-      
-
+      //also we cn use below 
+    Arrays.parallelSort(array1);
+    System.out.println(Arrays.toString(array1));
+    
 		
 		
 		

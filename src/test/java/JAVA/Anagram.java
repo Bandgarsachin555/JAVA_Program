@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class Anagram {
 
 	public static void main(String[] args) {
-		
+		//anagram is a word we can rearrange adifferent word
 		String a="secure";
 		String b="Rescue";
 		

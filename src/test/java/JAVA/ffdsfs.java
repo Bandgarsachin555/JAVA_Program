@@ -1,24 +1,20 @@
 package JAVA;
 
+import java.util.Arrays;
+
 public class ffdsfs {
 
 	public static void main(String[] args) {
-		String a="sasass";
-		String b="";
-		for(int i=a.length()-1;i>=0;i--)
-		{
-			b=b+a.charAt(i);
-		}
-		System.out.println(b);
-		if(a.equalsIgnoreCase(b))
-		{
-			System.out.println("yes");
-		}
-		else
-		{
-			System.out.println("no");
-		}
-
+	
+		//factorial no meance 
+		
+		int abc=4;
+		int fact=1;
+		   for(int i=1;i<=abc;i++)
+		   {
+			   fact=fact*i;
+		   }
+		   System.out.println(fact);
 	}
 
 }

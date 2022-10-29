@@ -3,7 +3,7 @@ package JAVA;
 public class Find_duplicate_char {
 
 	public String abc() {
-		String a = "aoitwqsi";
+		String a = "aoitawqsi";
 
 		String b = "";
 
@@ -17,7 +17,8 @@ public class Find_duplicate_char {
 			{
 				b = b + ne;
 
-			} else if (c.indexOf(ne) < 0)// find duplicate char
+			} 
+			else if (c.indexOf(ne) < 0)// find duplicate char
 			{
 				c = c + ne;
 			}

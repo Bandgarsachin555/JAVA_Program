@@ -10,11 +10,11 @@ public class Pattern_IMP {
 		{
 			for (int j = 0; j <= i; j++)// 0
 			{
-				System.out.print(a.charAt(i));
+				System.out.print(a.charAt(i)+"  ");
 
 			}
 
-     // System.out.println(" ");
+    System.out.println("    ");
 		}
 	}
 
