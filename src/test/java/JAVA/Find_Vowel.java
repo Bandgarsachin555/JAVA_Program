@@ -14,7 +14,7 @@ public class Find_Vowel {
 			 if(str.charAt(z)=='a')
 			{
 				a++;
-				System.out.println(str.charAt(z));
+				//System.out.println(str.charAt(z));
 			} 
 			
 			else if(str.charAt(z)=='e')

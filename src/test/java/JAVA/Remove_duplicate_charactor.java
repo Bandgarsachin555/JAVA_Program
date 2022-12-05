@@ -11,7 +11,7 @@ public class Remove_duplicate_charactor {
         	char charposition= a.charAt(i);
         	
         	
-        	if(b.indexOf(charposition)<0)// if charactor is not present then return value is -1;
+        	if(b.indexOf(charposition)<0)// if same charactor is not present then return value is -1;
         	{                           //if charactor is present then return value is whatever present inside of "b string"
         	
         		b=b+charposition;

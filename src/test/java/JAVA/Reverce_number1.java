@@ -13,10 +13,10 @@ public class Reverce_number1 {
 		
 		int rev=0;
 		
-		while(num!=0)
+		while(num>0)
 		{
 			rev=rev*10 +num%10;//0+4=4, 40+3=43, 430+2=432 if use moduler output should be last num
-			num=num/10;//23,2,0 //if use moduler output should be except last num  rest all 
+			num=num/10;//23,2,0 //if use divided output should be except last num  rest all 
 			
 		}
 System.out.println(rev);

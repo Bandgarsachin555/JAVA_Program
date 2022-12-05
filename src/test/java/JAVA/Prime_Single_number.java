@@ -14,9 +14,11 @@ public class Prime_Single_number {
 		{
 			for(int i=1;i<=no;i++)
 			{
-				if(no%i==0) //divide by each number 
+				if(no%i==0)
+				{
+					//divide by each number 
 					count++;//if condition is satisfy then count will be increase 
-				
+				}
 			}
 			
 			if(count==2)//if count become 2 then prime ,and if count is gretter than 2 then it is not prime number 

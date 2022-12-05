@@ -12,7 +12,7 @@ public class Search_Element_Array {
 		{
 			if (abc[i] == search_element)
 			{
-				count = count + 1;// we can count also
+				count++;// we can count also
 
 				System.out.println("yes elements is match" + abc[i]);
 

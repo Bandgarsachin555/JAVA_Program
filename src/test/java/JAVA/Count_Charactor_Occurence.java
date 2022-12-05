@@ -4,7 +4,7 @@ public class Count_Charactor_Occurence {
 
 	public static void main(String[] args) {
 	//count 'a' character 
-		String str="sachin bandgar  ak";
+		String str="sachin bandgar ak";
         
 		
 		int total_count=str.length();//calculate with space also

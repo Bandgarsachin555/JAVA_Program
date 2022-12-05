@@ -3,7 +3,7 @@ package JAVA;
 public class Pattern_IMP {
 
 	public static void main(String[] args) {
-		// output-abbccc
+		// output-abbcccdddd
 		String a = "abcd";
 
 		for (int i = 0; i < a.length(); i++)// 0

@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class palindrom_Number {
 
 	public static void main(String[] args) {
-		// bacical we aare checking here if no is reverce ,those reverece and and origibal number both should be same then and then should be palindrom
+		// bacical we are checking here if no is reverce ,those reverece and and original number both should be same then and then should be palindrom
 		
 		 Scanner scan=new Scanner(System.in);
-		 System.out.println("prind number");
-		 
+		 System.out.println("prinm number");
+		 //121
 		int num= scan.nextInt();
 		int o_num=num;
 	    int	rev=0;

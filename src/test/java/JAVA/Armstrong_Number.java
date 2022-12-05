@@ -3,7 +3,7 @@ package JAVA;
 public class Armstrong_Number {
 
 	public static void main(String[] args) {
-		
+		//An Armstrong number of three digits is an integer such that the sum of the cubes of its digits is equal to the number itself.
 		int no=153;
 		//store in t1...coz it will save original
 		int t1=no;

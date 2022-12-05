@@ -5,7 +5,7 @@ public class Anagram {
 
 	public static void main(String[] args) {
 		//anagram is a word we can rearrange adifferent word
-		String a="secure";
+		String a="sec2ure";
 		String b="Rescue";
 		
         String a1=  a.toLowerCase();
